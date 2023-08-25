@@ -1,0 +1,51 @@
+<main>
+
+    <!-- About US Start -->
+    <div class="about-area2 gray-bg pt-60 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Trending Tittle -->
+                    <div class="about-right mb-90">
+                        <div class="about-img">
+                            <!-- <video #myvid id="my-video" [poster]="video?.thumbnail" class="video-js vjs-big-play-centered mini-play" width="640"
+                                height="360" style="margin: auto;">
+                                <source src="{{videoUrl}}" type="video/mp4">
+                            </video> -->
+
+                            <!-- Notice we turned off controls? We're supplying our own, so we hide the native ones. -->
+                            <vm-player>
+                                <vm-video cross-origin="true" poster="{{video?.thumbnail}}">
+                                    <source data-src="{{videoUrl}}" type="video/mp4" />
+                                    <track default kind="subtitles" src="https://media.vimejs.com/subs/english.vtt"
+                                        srclang="en" label="English" />
+                                </vm-video>
+
+                                <!-- We've replaced the `<vm-ui>` element. -->
+                                <!-- We can also turn off any features we don't want via properties. -->
+                                <vm-default-ui no-click-to-play>
+                                    <!-- We can place our own UI components here to extend the default UI. -->
+                                </vm-default-ui>
+                            </vm-player>
+
+
+
+                        </div>
+                        <div class="heading-news mb-30 pt-30">
+                            <h3>{{video?.hat}}</h3>
+                        </div>
+                    </div>
+                    <!-- From -->
+
+                </div>
+                <div class="col-lg-4">
+                    <!-- New Poster -->
+                    <div class="news-poster d-none d-lg-block">
+                        <img src="assets/img/news/news_card.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About US End -->
+</main>

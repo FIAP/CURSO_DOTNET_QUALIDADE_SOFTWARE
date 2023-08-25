@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oO5wvniKkDhzXWAbWNc6QllXugrv/9PoDbmRbi6hCxTe14yfw8uRmluH3FP7h4oq/cMzp6ixsaYzqyTD8ZI8xg==",
+  "success": true,
+  "projectFilePath": "\\\\Mac\\Home\\FIAP\\curso_qualidade_software\\aula_1_exemplo2\\Noticias\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiagoadriano\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512"
+  ],
+  "logs": []
+}

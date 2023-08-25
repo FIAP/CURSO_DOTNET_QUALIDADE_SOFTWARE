@@ -1,0 +1,55 @@
+trigger:
+  branches:
+    include:
+      - main
+
+jobs:
+  - job: build_and_test
+    displayName: Build and Test
+    pool:
+      vmImage: 'ubuntu-latest'
+    # services:
+    #   db:
+    #     image: postgres
+    #     env:
+    #       POSTGRES_USER: postgres
+    #       POSTGRES_PASSWORD: 1020304050
+    #       POSTGRES_DB: postgres
+
+    steps:
+      - checkout: self
+
+      - task: UseDotNet@2
+        displayName: Setup .NET
+        inputs:
+          packageType: 'sdk'
+          version: '6.x'
+
+      - task: DotNetCoreCLI@2
+        displayName: Restore dependencies
+        inputs:
+          command: 'restore'
+          projects: '**/*.csproj'
+
+      - task: DotNetCoreCLI@2
+        displayName: Build
+        inputs:
+          command: 'build'
+          projects: '**/*.csproj'
+          arguments: '--configuration Release'
+
+      - task: PowerShell@2
+        displayName: Delay before tests
+        inputs:
+          targetType: 'inline'
+          script: |
+            docker pull postgres
+            docker run  -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=1020304050 -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
+
+
+      - task: DotNetCoreCLI@2
+        displayName: Run tests
+        inputs:
+          command: 'test'
+          projects: '**/*.csproj'
+          arguments: '--configuration Release'

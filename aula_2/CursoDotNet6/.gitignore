@@ -1,0 +1,48 @@
+# .NET
+## Arquivos gerados pelo MSBuild
+.vs
+*.obj
+*.dll
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+
+## Pastas geradas pelo MSBuild
+bin/
+obj/
+TestResults/
+[Bb]uild/
+
+## Pasta gerada pela ferramenta NuGet
+packages/
+
+# Arquivos de configuração do Visual Studio
+*.sln
+*.suo
+*.csproj
+*.user
+*.userosscache
+*.vspscc
+
+# Arquivos temporários do Visual Studio
+*.pdb
+*.cache
+
+# Pasta gerada pelo Visual Studio ao depurar
+ipch/

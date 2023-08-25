@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCaixaBranca", "ExemploCaixaBranca\ExemploCaixaBranca.csproj", "{A8DBF2D2-E2BA-43AC-B015-4A8F49A7B122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCaixaBranca.Tests", "ExemploCaixaBranca.Tests\ExemploCaixaBranca.Tests.csproj", "{F6721716-D9C7-4883-A673-4A0FBEEC3A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8DBF2D2-E2BA-43AC-B015-4A8F49A7B122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DBF2D2-E2BA-43AC-B015-4A8F49A7B122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DBF2D2-E2BA-43AC-B015-4A8F49A7B122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DBF2D2-E2BA-43AC-B015-4A8F49A7B122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6721716-D9C7-4883-A673-4A0FBEEC3A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6721716-D9C7-4883-A673-4A0FBEEC3A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6721716-D9C7-4883-A673-4A0FBEEC3A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6721716-D9C7-4883-A673-4A0FBEEC3A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DD484B2-8BD9-4664-9136-602BFF7896F6}
+	EndGlobalSection
+EndGlobal

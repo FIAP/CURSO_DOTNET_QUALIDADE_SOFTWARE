@@ -1,0 +1,41 @@
+name: Integration Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    # services:
+    #   postgres:
+    #     image: postgres
+    #     env:
+    #       POSTGRES_USER: postgres
+    #       POSTGRES_PASSWORD: 1020304050
+    #       POSTGRES_DB: postgres
+    #     ports:
+    #       - 5432:5432
+    #     options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - name: Create Container
+        run: |
+          docker pull postgres
+          docker run  -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=1020304050 -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
+          
+  
+      - name: Build and test
+        run: |              
+          dotnet build --configuration Release
+          dotnet test --configuration Release

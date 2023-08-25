@@ -1,0 +1,99 @@
+<main>
+    <div class="trending-area fix">
+        <div class="container">
+            <div class="trending-main">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Trending Top -->
+                        <div class="trending-top mb-30">
+                            <div class="trend-top-img">
+                                <img src="{{newsStandard?.img}}" alt="">
+                                <div class="trend-top-cap">
+                                    <span>{{newsStandard?.hat}}</span>
+                                    <h2><a [routerLink]="['/noticias',newsStandard?.slug]">{{newsStandard?.title}}</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Trending Bottom -->
+                        <div class="trending-bottom">
+                            <div class="row">
+                                <div class="col-lg-4" *ngFor="let news of newsList | slice:1 ">
+                                    <div class="single-bottom mb-35">
+                                        <div class="trend-bottom-img mb-30">
+                                            <img src="{{news.img}}" alt="">
+                                        </div>
+                                        <div class="trend-bottom-cap">
+                                            <span class="color3">{{news.hat}}</span>
+                                            <h4><a [routerLink]="['/noticias',news.slug]">{{news.title}}</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weekly2-news-area  weekly2-pading gray-bg">
+        <div class="container">
+            <div class="weekly2-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>Últimos vídeos</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weekly2-news-active dot-style d-flex dot-style">
+                            <div *ngFor="let video of videoList" class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img style="height:200px" src="{{video.thumbnail}}" alt="{{video.title}}">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <span class="color1">{{video.hat}}</span>
+                                    <p>{{video.publishDate | date: 'dd/MM/yyyy'}}</p>
+                                    <h4><a [routerLink]="['/videos',video?.slug]">{{video.title}}</a></h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recent-articles">
+        <div class="container">
+            <div class="recent-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>Galeria de imagens</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="recent-active dot-style d-flex dot-style">
+                            <div class="single-recent mb-100" *ngFor="let gallery of galleryList">
+                                <div class="what-img">
+                                    <img [src]="gallery.thumb" alt="">
+                                </div>
+                                <div class="what-cap">
+                                    <span class="color1">{{gallery.publishDate | date: 'dd/MM/yyyy'}}</span>
+                                    <h4><a [routerLink]="['/galeria',gallery?.slug]">{{gallery.title}}</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

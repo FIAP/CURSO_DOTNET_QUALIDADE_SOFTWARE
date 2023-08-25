@@ -1,0 +1,34 @@
+# .NET build files
+*.nuget.props
+*.nuget.targets
+
+# .NET test files
+*.TestResults/
+[Oo]bj/
+[Bb]in/
+
+# Visual Studio files
+.vs/
+*.userprefs
+*.vscode/
+*.suo
+*.sln.docstates
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Test files
+[Tt]est[Rr]esult*/
+*.testsettings
+
+# NuGet packages
+packages/
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini

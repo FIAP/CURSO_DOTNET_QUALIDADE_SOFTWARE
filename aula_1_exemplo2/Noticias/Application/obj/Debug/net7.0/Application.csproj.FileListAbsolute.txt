@@ -1,0 +1,17 @@
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Application.deps.json
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Application.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Application.pdb
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Domain.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Infra.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Domain.pdb
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\bin\Debug\net7.0\Infra.pdb
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\refint\Application.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\Application.pdb
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Application\obj\Debug\net7.0\ref\Application.dll

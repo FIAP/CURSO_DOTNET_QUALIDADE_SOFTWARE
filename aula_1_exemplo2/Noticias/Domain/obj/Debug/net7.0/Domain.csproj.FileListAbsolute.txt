@@ -1,0 +1,12 @@
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\bin\Debug\net7.0\Domain.deps.json
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\bin\Debug\net7.0\Domain.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\bin\Debug\net7.0\Domain.pdb
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\refint\Domain.dll
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\Domain.pdb
+\\Mac\Home\FIAP\curso_qualidade_software\aula_1_exemplo2\Noticias\Domain\obj\Debug\net7.0\ref\Domain.dll

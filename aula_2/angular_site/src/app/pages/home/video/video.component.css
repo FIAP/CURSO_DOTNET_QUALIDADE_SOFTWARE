@@ -1,0 +1,5 @@
+@import '~@vime/core/themes/default.css';
+
+.video{
+    cursor: pointer;
+}

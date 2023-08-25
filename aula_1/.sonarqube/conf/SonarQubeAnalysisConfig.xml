@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonarQubeAnalysisConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/SonarSource/sonar-scanner-msbuild/master/resources/SonarQube.Analysis.xml">
+  <Server>
+    <Host>https://cursofiap.azurewebsites.net/</Host> <!-- URL do servidor do SonarQube -->
+    <Port>80</Port> <!-- Porta do servidor do SonarQube -->
+  </Server>
+  <SonarQubeOptions>
+    <!-- Opções adicionais de configuração do SonarQube -->
+    <Property Name="sonar.projectKey">FIAP_api_news_curso_AYl_UHKl52OtnBYcC-6l</Property> <!-- Chave única do projeto no SonarQube -->
+    <Property Name="sonar.language">cs</Property> <!-- Linguagem do código-fonte -->
+    <!-- Outras configurações opcionais do SonarQube -->
+  </SonarQubeOptions>
+</SonarQubeAnalysisConfig>
