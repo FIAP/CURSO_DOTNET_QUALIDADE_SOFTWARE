@@ -15,7 +15,7 @@ public class FinanceServicesTests : IClassFixture<DockerFixture>
 
         using (var connection = new NpgsqlConnection(_dockerFixture.GetConnectionString()))
         {
-            connection.Open();
+           
 
             string createTableQuery = @"
                 CREATE TABLE quotes (
